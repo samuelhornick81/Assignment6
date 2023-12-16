@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width">
+		
+    <title>Assignment 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" />
+    <script src="js/data.js" type="text/JavaScript"></script>
+    <script src="js/functions.js" type="text/JavaScript"></script>
+</head>
+
+<body>
+<table class="table-fill">
+    <thead>
+        <tr>
+            <th colspan="2">Product</th>
+            <th>#</th>
+            <th>Price</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- This js should run the the for loop that runs the outputCartRow. This will autofill based on the objects created -->
+        <script src="/assignment5/js/assignment6.js" type="text/JavaScript">
+
+        </script>
+        <tr>
+            <td><img src="images/105070.jpg" alt="iPad Image"></td>
+            <td>Ipad WiFi 10th Generation</td>
+            <td>3</td>
+            <td>$450.00</td>
+            <td>$1350.00</td>
+        </tr>
+        <tr>
+            <td><img src="images/106050.jpg" alt="iPhone Image"></td>
+            <td>Iphone 15 Pro</td>
+            <td>1</td>
+            <td>$1000.00</td>
+            <td>$1000.00</td>
+        </tr>
+        <tr>
+            <td><img src="images/106060.jpg" alt="Airpods Image"></td>
+            <td>Airpods Pro 2nd Generation</td>
+            <td>2</td>
+            <td>$250.00</td>
+            <td>$500.00</td>
+        </tr> 
+        <tr class="totals">
+            <td colspan="4">Subtotal</td>
+            <td id="subtotal"></td>
+
+        </tr>
+        <tr class="totals">
+            <td colspan="4">Tax</td>
+            <td id="tax"></td>
+        </tr>
+        <tr class="totals">
+            <td colspan="4">Shipping</td>
+            <td id="shipping"></td>
+        </tr>
+        <tr class="totals">
+            <td colspan="4" class="focus">Grand Total</td>
+            <td class="focus" id="grandTotal"></td> <!-- Add (Within <script>) the output(grand) function instead of this line -->
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
